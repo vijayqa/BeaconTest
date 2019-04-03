@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BeaconAppLoadTest]">
+  <test thread-count="5" verbose="0" name="BeaconTest(failed)">
+    <classes>
+      <class name="com.beacon.test.AppTestDeviceOne">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="add_Incident_Report"/>
+        </methods>
+      </class> <!-- com.beacon.test.AppTestDeviceOne -->
+    </classes>
+  </test> <!-- BeaconTest(failed) -->
+</suite> <!-- Failed suite [BeaconAppLoadTest] -->

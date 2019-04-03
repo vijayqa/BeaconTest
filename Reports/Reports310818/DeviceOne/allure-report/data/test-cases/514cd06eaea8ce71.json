@@ -1,0 +1,190 @@
+{
+  "uid" : "514cd06eaea8ce71",
+  "name" : "add_Incident_Report:41/50 100%",
+  "fullName" : "com.beacon.test.AppTestDeviceOne.add_Incident_Report",
+  "historyId" : "ace381a857d9150e756adaad102078b2",
+  "time" : {
+    "start" : 1535723538593,
+    "stop" : 1535723605114,
+    "duration" : 66521
+  },
+  "description" : "Add Incident Report",
+  "descriptionHtml" : "<p>Add Incident Report</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Location searched is Beltway",
+      "time" : {
+        "start" : 1535723550620,
+        "stop" : 1535723550620,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Maintainance",
+      "time" : {
+        "start" : 1535723557464,
+        "stop" : 1535723557464,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on SAVE CART",
+      "time" : {
+        "start" : 1535723582459,
+        "stop" : 1535723582459,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Add Photo",
+      "time" : {
+        "start" : 1535723585020,
+        "stop" : 1535723585020,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on PhotoCapture",
+      "time" : {
+        "start" : 1535723593059,
+        "stop" : 1535723593059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Use Photo",
+      "time" : {
+        "start" : 1535723595567,
+        "stop" : 1535723595567,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on SUBMIT",
+      "time" : {
+        "start" : 1535723598076,
+        "stop" : 1535723598076,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "basavarajs-MacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Add Incident Report"
+  }, {
+    "name" : "testClass",
+    "value" : "com.beacon.test.AppTestDeviceOne"
+  }, {
+    "name" : "testGroup",
+    "value" : "BeaconTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "add_Incident_Report"
+  }, {
+    "name" : "testSuite",
+    "value" : "BeaconAppLoadTest"
+  }, {
+    "name" : "thread",
+    "value" : "8508@basavarajs-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "BeaconAppLoadTest"
+  }, {
+    "name" : "suite",
+    "value" : "BeaconTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.beacon.test.AppTestDeviceOne"
+  }, {
+    "name" : "package",
+    "value" : "com.beacon.test.AppTestDeviceOne"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "514cd06eaea8ce71.json",
+  "parameterValues" : [ ]
+}

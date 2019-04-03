@@ -1,0 +1,3218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1535720669818" stop="1535724328328" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>BeaconAppLoadTest : BeaconTest</name>
+    <title>BeaconAppLoadTest : BeaconTest</title>
+    <test-cases>
+        <test-case start="1535720670004" stop="1535720735196" status="passed">
+            <name>add_Incident_Report:1/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535720682376" stop="1535720682380" status="passed">
+                    <name>logToReport[Location searched is Seattle]</name>
+                    <title>Location searched is Seattle</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720688951" stop="1535720688951" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720714012" stop="1535720714012" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720716162" stop="1535720716163" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720724360" stop="1535720724360" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720726919" stop="1535720726919" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720728568" stop="1535720728568" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535720735205" stop="1535720798282" status="passed">
+            <name>add_Incident_Report:2/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535720746927" stop="1535720746927" status="passed">
+                    <name>logToReport[Location searched is Florida]</name>
+                    <title>Location searched is Florida</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720753356" stop="1535720753357" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720778322" stop="1535720778322" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720780609" stop="1535720780609" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720788626" stop="1535720788626" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720790620" stop="1535720790620" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720792013" stop="1535720792013" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535720798286" stop="1535720864620" status="passed">
+            <name>add_Incident_Report:3/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535720810248" stop="1535720810248" status="passed">
+                    <name>logToReport[Location searched is Keystone]</name>
+                    <title>Location searched is Keystone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720817135" stop="1535720817135" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720842400" stop="1535720842400" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720844589" stop="1535720844589" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720852475" stop="1535720852475" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720854515" stop="1535720854515" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720855947" stop="1535720855947" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535720864840" stop="1535720929801" status="passed">
+            <name>add_Incident_Report:4/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535720876682" stop="1535720876682" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720883403" stop="1535720883403" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720908720" stop="1535720908720" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720910864" stop="1535720910864" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720918977" stop="1535720918977" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720921227" stop="1535720921227" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720922661" stop="1535720922661" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535720929806" stop="1535720995572" status="passed">
+            <name>add_Incident_Report:5/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535720942123" stop="1535720942123" status="passed">
+                    <name>logToReport[Location searched is Mountainwest]</name>
+                    <title>Location searched is Mountainwest</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720948723" stop="1535720948723" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720974055" stop="1535720974055" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720976493" stop="1535720976493" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720985181" stop="1535720985181" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720987514" stop="1535720987514" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535720989195" stop="1535720989195" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535720995780" stop="1535721064563" status="passed">
+            <name>add_Incident_Report:6/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721008046" stop="1535721008046" status="passed">
+                    <name>logToReport[Location searched is Seattle]</name>
+                    <title>Location searched is Seattle</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721014539" stop="1535721014539" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721039683" stop="1535721039684" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721042056" stop="1535721042057" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721050741" stop="1535721050741" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721052755" stop="1535721052755" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721054397" stop="1535721054397" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721064569" stop="1535721191645" status="failed">
+            <name>add_Incident_Report:7/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	... 29 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535721076680" stop="1535721076680" status="passed">
+                    <name>logToReport[Location searched is West]</name>
+                    <title>Location searched is West</title>
+                </step>
+                <step start="1535721083336" stop="1535721083336" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+                <step start="1535721105236" stop="1535721105236" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                </step>
+                <step start="1535721107746" stop="1535721107746" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721191651" stop="1535721256341" status="passed">
+            <name>add_Incident_Report:8/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721203881" stop="1535721203881" status="passed">
+                    <name>logToReport[Location searched is Bigsouth]</name>
+                    <title>Location searched is Bigsouth</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721210276" stop="1535721210276" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721234791" stop="1535721234791" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721237016" stop="1535721237016" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721246099" stop="1535721246099" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721248389" stop="1535721248389" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721249891" stop="1535721249891" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721256527" stop="1535721319229" status="passed">
+            <name>add_Incident_Report:9/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721268335" stop="1535721268336" status="passed">
+                    <name>logToReport[Location searched is Mountainwest]</name>
+                    <title>Location searched is Mountainwest</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721274666" stop="1535721274666" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721299642" stop="1535721299642" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721301934" stop="1535721301935" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721309817" stop="1535721309817" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721311876" stop="1535721311876" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721313197" stop="1535721313197" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721319234" stop="1535721383255" status="passed">
+            <name>add_Incident_Report:10/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721331103" stop="1535721331103" status="passed">
+                    <name>logToReport[Location searched is Chicago]</name>
+                    <title>Location searched is Chicago</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721337808" stop="1535721337808" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721363083" stop="1535721363083" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721365421" stop="1535721365421" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721373326" stop="1535721373326" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721375416" stop="1535721375416" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721376887" stop="1535721376887" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721383485" stop="1535721446814" status="passed">
+            <name>add_Incident_Report:11/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721395310" stop="1535721395310" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721401652" stop="1535721401652" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721427079" stop="1535721427079" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721429295" stop="1535721429296" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721437124" stop="1535721437124" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721439217" stop="1535721439217" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721440619" stop="1535721440619" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721446818" stop="1535721510815" status="passed">
+            <name>add_Incident_Report:12/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721458848" stop="1535721458848" status="passed">
+                    <name>logToReport[Location searched is Seattle]</name>
+                    <title>Location searched is Seattle</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721465464" stop="1535721465464" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721490522" stop="1535721490522" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721492822" stop="1535721492822" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721500778" stop="1535721500778" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721502843" stop="1535721502844" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721504363" stop="1535721504363" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721511012" stop="1535721577360" status="passed">
+            <name>add_Incident_Report:13/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721522832" stop="1535721522832" status="passed">
+                    <name>logToReport[Location searched is West]</name>
+                    <title>Location searched is West</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721529602" stop="1535721529602" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721555101" stop="1535721555101" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721557600" stop="1535721557600" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721566187" stop="1535721566187" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721568630" stop="1535721568630" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721570455" stop="1535721570455" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721577364" stop="1535721712037" status="failed">
+            <name>add_Incident_Report:14/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	... 29 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535721589941" stop="1535721589942" status="passed">
+                    <name>logToReport[Location searched is Heartland]</name>
+                    <title>Location searched is Heartland</title>
+                </step>
+                <step start="1535721596735" stop="1535721596735" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+                <step start="1535721623592" stop="1535721623592" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                </step>
+                <step start="1535721626007" stop="1535721626007" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721712182" stop="1535721778382" status="passed">
+            <name>add_Incident_Report:15/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721724493" stop="1535721724493" status="passed">
+                    <name>logToReport[Location searched is California]</name>
+                    <title>Location searched is California</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721732411" stop="1535721732411" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721757025" stop="1535721757025" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721759350" stop="1535721759350" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721768344" stop="1535721768345" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721770596" stop="1535721770596" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721772088" stop="1535721772088" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721778386" stop="1535721842141" status="passed">
+            <name>add_Incident_Report:16/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721790413" stop="1535721790413" status="passed">
+                    <name>logToReport[Location searched is Oregon]</name>
+                    <title>Location searched is Oregon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721797053" stop="1535721797053" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721821760" stop="1535721821760" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721824092" stop="1535721824092" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721831891" stop="1535721831891" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721833945" stop="1535721833945" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721835407" stop="1535721835407" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721842341" stop="1535721905549" status="passed">
+            <name>add_Incident_Report:17/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721854070" stop="1535721854070" status="passed">
+                    <name>logToReport[Location searched is West]</name>
+                    <title>Location searched is West</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721860577" stop="1535721860577" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721885460" stop="1535721885460" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721887806" stop="1535721887806" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721895629" stop="1535721895629" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721897607" stop="1535721897607" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721899129" stop="1535721899129" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721905553" stop="1535721970956" status="passed">
+            <name>add_Incident_Report:18/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721917767" stop="1535721917767" status="passed">
+                    <name>logToReport[Location searched is California]</name>
+                    <title>Location searched is California</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721925589" stop="1535721925589" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721950746" stop="1535721950746" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721953176" stop="1535721953176" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721961032" stop="1535721961032" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721963150" stop="1535721963150" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721964574" stop="1535721964574" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535721971144" stop="1535722035787" status="passed">
+            <name>add_Incident_Report:19/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535721983221" stop="1535721983221" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535721989913" stop="1535721989913" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722015289" stop="1535722015289" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722017430" stop="1535722017430" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722025471" stop="1535722025471" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722027688" stop="1535722027688" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722029252" stop="1535722029252" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722035792" stop="1535722100573" status="passed">
+            <name>add_Incident_Report:20/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722048018" stop="1535722048018" status="passed">
+                    <name>logToReport[Location searched is Keystone]</name>
+                    <title>Location searched is Keystone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722054611" stop="1535722054611" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722079843" stop="1535722079843" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722082293" stop="1535722082293" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722090172" stop="1535722090172" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722092376" stop="1535722092376" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722093924" stop="1535722093924" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722100729" stop="1535722230196" status="failed">
+            <name>add_Incident_Report:21/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Use Photo}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:191)
+	... 28 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535722112724" stop="1535722112724" status="passed">
+                    <name>logToReport[Location searched is Heartland]</name>
+                    <title>Location searched is Heartland</title>
+                </step>
+                <step start="1535722119525" stop="1535722119526" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+                <step start="1535722144767" stop="1535722144767" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                </step>
+                <step start="1535722147277" stop="1535722147277" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                </step>
+                <step start="1535722155759" stop="1535722155759" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722230351" stop="1535722294295" status="passed">
+            <name>add_Incident_Report:22/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722242423" stop="1535722242423" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722249108" stop="1535722249108" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722273810" stop="1535722273810" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722276194" stop="1535722276194" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722284333" stop="1535722284333" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722286357" stop="1535722286357" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722288048" stop="1535722288048" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722294299" stop="1535722357198" status="passed">
+            <name>add_Incident_Report:23/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722306139" stop="1535722306139" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722312465" stop="1535722312465" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722337316" stop="1535722337316" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722339548" stop="1535722339548" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722347503" stop="1535722347503" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722349570" stop="1535722349570" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722351080" stop="1535722351080" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722357374" stop="1535722420701" status="passed">
+            <name>add_Incident_Report:24/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722369043" stop="1535722369044" status="passed">
+                    <name>logToReport[Location searched is Oregon]</name>
+                    <title>Location searched is Oregon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722375541" stop="1535722375541" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722400558" stop="1535722400558" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722403038" stop="1535722403038" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722410918" stop="1535722410918" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722413037" stop="1535722413037" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722414436" stop="1535722414436" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722420704" stop="1535722485565" status="passed">
+            <name>add_Incident_Report:25/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722432547" stop="1535722432547" status="passed">
+                    <name>logToReport[Location searched is Beltway]</name>
+                    <title>Location searched is Beltway</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722438941" stop="1535722438941" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722464414" stop="1535722464414" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722466649" stop="1535722466650" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722474574" stop="1535722474574" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722476647" stop="1535722476647" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722478086" stop="1535722478086" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722485731" stop="1535722550135" status="passed">
+            <name>add_Incident_Report:26/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722497786" stop="1535722497786" status="passed">
+                    <name>logToReport[Location searched is Atlanta]</name>
+                    <title>Location searched is Atlanta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722504440" stop="1535722504440" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722529576" stop="1535722529576" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722532118" stop="1535722532118" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722540064" stop="1535722540064" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722542199" stop="1535722542199" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722543657" stop="1535722543657" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722550139" stop="1535722615048" status="passed">
+            <name>add_Incident_Report:27/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722562409" stop="1535722562409" status="passed">
+                    <name>logToReport[Location searched is Keystone]</name>
+                    <title>Location searched is Keystone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722568969" stop="1535722568969" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722594426" stop="1535722594426" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722596896" stop="1535722596896" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722604820" stop="1535722604820" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722607063" stop="1535722607063" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722608667" stop="1535722608667" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722615243" stop="1535722692295" status="failed">
+            <name>add_Incident_Report:28/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Aerial coax construction composite (Coax Only)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:148)
+	... 28 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535722627735" stop="1535722627735" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                </step>
+                <step start="1535722634290" stop="1535722634290" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722692300" stop="1535722756097" status="passed">
+            <name>add_Incident_Report:29/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722704204" stop="1535722704204" status="passed">
+                    <name>logToReport[Location searched is Oregon]</name>
+                    <title>Location searched is Oregon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722710760" stop="1535722710760" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722735354" stop="1535722735354" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722737535" stop="1535722737535" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722746261" stop="1535722746261" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722748507" stop="1535722748507" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722749973" stop="1535722749973" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722756101" stop="1535722818962" status="passed">
+            <name>add_Incident_Report:30/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722767831" stop="1535722767831" status="passed">
+                    <name>logToReport[Location searched is Heartland]</name>
+                    <title>Location searched is Heartland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722774448" stop="1535722774448" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722799251" stop="1535722799252" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722801499" stop="1535722801499" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722809309" stop="1535722809309" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722811340" stop="1535722811340" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722812834" stop="1535722812834" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722818966" stop="1535722882279" status="passed">
+            <name>add_Incident_Report:31/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722830697" stop="1535722830697" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722837364" stop="1535722837364" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722862244" stop="1535722862244" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722864681" stop="1535722864681" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722872478" stop="1535722872478" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722874453" stop="1535722874454" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722875954" stop="1535722875954" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722882435" stop="1535722946799" status="passed">
+            <name>add_Incident_Report:32/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722894477" stop="1535722894477" status="passed">
+                    <name>logToReport[Location searched is Bigsouth]</name>
+                    <title>Location searched is Bigsouth</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722901064" stop="1535722901064" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722926170" stop="1535722926170" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722928580" stop="1535722928580" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722936622" stop="1535722936622" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722938624" stop="1535722938624" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722940158" stop="1535722940158" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535722946805" stop="1535723013802" status="passed">
+            <name>add_Incident_Report:33/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535722958951" stop="1535722958951" status="passed">
+                    <name>logToReport[Location searched is California]</name>
+                    <title>Location searched is California</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722966995" stop="1535722966995" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722992284" stop="1535722992284" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535722994712" stop="1535722994712" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723002534" stop="1535723002534" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723004606" stop="1535723004606" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723006015" stop="1535723006015" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723013969" stop="1535723078003" status="passed">
+            <name>add_Incident_Report:34/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723025857" stop="1535723025857" status="passed">
+                    <name>logToReport[Location searched is West]</name>
+                    <title>Location searched is West</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723032557" stop="1535723032557" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723057652" stop="1535723057652" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723060032" stop="1535723060032" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723068198" stop="1535723068198" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723070340" stop="1535723070341" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723071755" stop="1535723071755" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723078007" stop="1535723217391" status="failed">
+            <name>add_Incident_Report:35/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	... 28 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535723090214" stop="1535723090215" status="passed">
+                    <name>logToReport[Location searched is Florida]</name>
+                    <title>Location searched is Florida</title>
+                </step>
+                <step start="1535723097213" stop="1535723097213" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+                <step start="1535723122756" stop="1535723122756" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                </step>
+                <step start="1535723125029" stop="1535723125029" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723217549" stop="1535723282200" status="passed">
+            <name>add_Incident_Report:36/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723229677" stop="1535723229677" status="passed">
+                    <name>logToReport[Location searched is Keystone]</name>
+                    <title>Location searched is Keystone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723236245" stop="1535723236245" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723261076" stop="1535723261076" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723263212" stop="1535723263212" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723271983" stop="1535723271983" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723274261" stop="1535723274261" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723275931" stop="1535723275931" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723282204" stop="1535723345300" status="passed">
+            <name>add_Incident_Report:37/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723293980" stop="1535723293980" status="passed">
+                    <name>logToReport[Location searched is Keystone]</name>
+                    <title>Location searched is Keystone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723300314" stop="1535723300314" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723325267" stop="1535723325267" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723327632" stop="1535723327632" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723335457" stop="1535723335457" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723337509" stop="1535723337509" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723338988" stop="1535723338988" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723345465" stop="1535723409350" status="passed">
+            <name>add_Incident_Report:38/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723357089" stop="1535723357089" status="passed">
+                    <name>logToReport[Location searched is Houston]</name>
+                    <title>Location searched is Houston</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723363928" stop="1535723363928" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723389190" stop="1535723389190" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723391505" stop="1535723391505" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723399334" stop="1535723399334" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723401412" stop="1535723401412" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723402896" stop="1535723402896" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723409354" stop="1535723473343" status="passed">
+            <name>add_Incident_Report:39/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723421436" stop="1535723421436" status="passed">
+                    <name>logToReport[Location searched is Chicago]</name>
+                    <title>Location searched is Chicago</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723428052" stop="1535723428052" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723453232" stop="1535723453232" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723455472" stop="1535723455472" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723463397" stop="1535723463397" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723465494" stop="1535723465494" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723467002" stop="1535723467002" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723473544" stop="1535723538590" status="passed">
+            <name>add_Incident_Report:40/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723485875" stop="1535723485875" status="passed">
+                    <name>logToReport[Location searched is Atlanta]</name>
+                    <title>Location searched is Atlanta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723492789" stop="1535723492789" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723517956" stop="1535723517956" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723520342" stop="1535723520342" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723528463" stop="1535723528463" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723530571" stop="1535723530571" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723532172" stop="1535723532172" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723538593" stop="1535723605114" status="passed">
+            <name>add_Incident_Report:41/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723550620" stop="1535723550620" status="passed">
+                    <name>logToReport[Location searched is Beltway]</name>
+                    <title>Location searched is Beltway</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723557464" stop="1535723557464" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723582459" stop="1535723582459" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723585020" stop="1535723585020" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723593059" stop="1535723593059" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723595567" stop="1535723595567" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723598076" stop="1535723598076" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723606294" stop="1535723741706" status="failed">
+            <name>add_Incident_Report:42/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	... 28 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535723618768" stop="1535723618768" status="passed">
+                    <name>logToReport[Location searched is Heartland]</name>
+                    <title>Location searched is Heartland</title>
+                </step>
+                <step start="1535723625612" stop="1535723625612" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+                <step start="1535723651568" stop="1535723651568" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                </step>
+                <step start="1535723654010" stop="1535723654010" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723741710" stop="1535723806471" status="passed">
+            <name>add_Incident_Report:43/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723753944" stop="1535723753944" status="passed">
+                    <name>logToReport[Location searched is Heartland]</name>
+                    <title>Location searched is Heartland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723760649" stop="1535723760649" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723785168" stop="1535723785168" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723787469" stop="1535723787469" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723796201" stop="1535723796201" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723798467" stop="1535723798467" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723800020" stop="1535723800020" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723806475" stop="1535723869600" status="passed">
+            <name>add_Incident_Report:44/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723818249" stop="1535723818249" status="passed">
+                    <name>logToReport[Location searched is Beltway]</name>
+                    <title>Location searched is Beltway</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723824907" stop="1535723824907" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723849611" stop="1535723849611" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723851946" stop="1535723851946" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723859883" stop="1535723859883" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723861903" stop="1535723861903" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723863361" stop="1535723863361" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723869605" stop="1535723933046" status="passed">
+            <name>add_Incident_Report:45/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723881321" stop="1535723881321" status="passed">
+                    <name>logToReport[Location searched is Freedom]</name>
+                    <title>Location searched is Freedom</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723887853" stop="1535723887853" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723912917" stop="1535723912917" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723915367" stop="1535723915367" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723923209" stop="1535723923209" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723925269" stop="1535723925270" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723926788" stop="1535723926788" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723933051" stop="1535723996721" status="passed">
+            <name>add_Incident_Report:46/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535723944850" stop="1535723944850" status="passed">
+                    <name>logToReport[Location searched is Atlanta]</name>
+                    <title>Location searched is Atlanta</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723951445" stop="1535723951445" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723976239" stop="1535723976239" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723978575" stop="1535723978575" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723986528" stop="1535723986528" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723988652" stop="1535723988652" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535723990118" stop="1535723990118" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535723996725" stop="1535724060897" status="passed">
+            <name>add_Incident_Report:47/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535724008754" stop="1535724008754" status="passed">
+                    <name>logToReport[Location searched is Bigsouth]</name>
+                    <title>Location searched is Bigsouth</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724015368" stop="1535724015368" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724040523" stop="1535724040523" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724042918" stop="1535724042918" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724050909" stop="1535724050909" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724053010" stop="1535724053010" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724054548" stop="1535724054548" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535724060901" stop="1535724128093" status="passed">
+            <name>add_Incident_Report:48/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535724073067" stop="1535724073067" status="passed">
+                    <name>logToReport[Location searched is Seattle]</name>
+                    <title>Location searched is Seattle</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724080078" stop="1535724080078" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724105551" stop="1535724105551" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724108027" stop="1535724108027" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724116392" stop="1535724116392" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724119352" stop="1535724119353" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724120902" stop="1535724120902" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535724128097" stop="1535724263632" status="failed">
+            <name>add_Incident_Report:49/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <failure>
+                <message>AssertionError: Unable to create report</message>
+                <stack-trace>java.lang.AssertionError: Unable to create report
+	at org.testng.Assert.fail(Assert.java:85)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	... 28 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1535724140665" stop="1535724140665" status="passed">
+                    <name>logToReport[Location searched is Oregon]</name>
+                    <title>Location searched is Oregon</title>
+                </step>
+                <step start="1535724147524" stop="1535724147524" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                </step>
+                <step start="1535724173891" stop="1535724173891" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                </step>
+                <step start="1535724178310" stop="1535724178310" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1535724263806" stop="1535724328187" status="passed">
+            <name>add_Incident_Report:50/50 100%</name>
+            <description type="text">Add Incident Report</description>
+            <steps>
+                <step start="1535724276136" stop="1535724276136" status="passed">
+                    <name>logToReport[Location searched is Beltway]</name>
+                    <title>Location searched is Beltway</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724282889" stop="1535724282889" status="passed">
+                    <name>logToReport[Clicked on Maintainance]</name>
+                    <title>Clicked on Maintainance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724307535" stop="1535724307535" status="passed">
+                    <name>logToReport[Clicked on SAVE CART]</name>
+                    <title>Clicked on SAVE CART</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724309924" stop="1535724309924" status="passed">
+                    <name>logToReport[Clicked on Add Photo]</name>
+                    <title>Clicked on Add Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724318023" stop="1535724318023" status="passed">
+                    <name>logToReport[Clicked on PhotoCapture]</name>
+                    <title>Clicked on PhotoCapture</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724320136" stop="1535724320136" status="passed">
+                    <name>logToReport[Clicked on Use Photo]</name>
+                    <title>Clicked on Use Photo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1535724321722" stop="1535724321723" status="passed">
+                    <name>logToReport[Clicked on SUBMIT]</name>
+                    <title>Clicked on SUBMIT</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="BeaconAppLoadTest"/>
+                <label name="testGroup" value="BeaconTest"/>
+                <label name="testClass" value="com.beacon.test.AppTestDeviceOne"/>
+                <label name="testMethod" value="add_Incident_Report"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Add Incident Report"/>
+                <label name="host" value="basavarajs-MacBook-Pro.local"/>
+                <label name="thread" value="8508@basavarajs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

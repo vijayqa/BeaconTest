@@ -1,0 +1,97 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Unable to create report",
+      "children" : [ {
+        "name" : "add_Incident_Report:7/50 100%",
+        "uid" : "a94e2f13ff1c87d9",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535721064569,
+          "stop" : 1535721191645,
+          "duration" : 127076
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:14/50 100%",
+        "uid" : "cb2d8125f97c9b67",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535721577364,
+          "stop" : 1535721712037,
+          "duration" : 134673
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:21/50 100%",
+        "uid" : "bcfdebdb6beca1d6",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535722100729,
+          "stop" : 1535722230196,
+          "duration" : 129467
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:28/50 100%",
+        "uid" : "c14661354bf3463b",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535722615243,
+          "stop" : 1535722692295,
+          "duration" : 77052
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:35/50 100%",
+        "uid" : "3bef3b58543982ff",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535723078007,
+          "stop" : 1535723217391,
+          "duration" : 139384
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:42/50 100%",
+        "uid" : "6b98d838210871c3",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535723606294,
+          "stop" : 1535723741706,
+          "duration" : 135412
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:49/50 100%",
+        "uid" : "7e1c77882281dca3",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535724128097,
+          "stop" : 1535724263632,
+          "duration" : 135535
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8d352a0fd458cfb258a534057427eb1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

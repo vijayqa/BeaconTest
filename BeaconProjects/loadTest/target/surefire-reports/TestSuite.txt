@@ -1,0 +1,102 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 50, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 3,710.221 s <<< FAILURE! - in TestSuite
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 127.073 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 134.674 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 129.469 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Use Photo}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:191)
+
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 77.053 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Aerial coax construction composite (Coax Only)}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:148)
+
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 139.384 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 135.413 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+
+add_Incident_Report(com.beacon.test.AppTestDeviceOne)  Time elapsed: 135.536 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+

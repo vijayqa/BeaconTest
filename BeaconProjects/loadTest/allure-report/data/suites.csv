@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","com.beacon.test.AppTest.Layers","27999",""
+"passed","com.beacon.test.AppTest.userProfiles","6749",""
+"passed","com.beacon.test.AppTest.createReport","25317",""
+"passed","com.beacon.test.AppTest.mapType","6333",""
+"passed","com.beacon.test.AppTest.search","15610",""

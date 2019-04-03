@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.beacon.test.AppTest",
+    "children" : [ {
+      "name" : "mapType",
+      "uid" : "1ea9136fa9904db8",
+      "parentUid" : "368d2aa9aa212f8b8ba930dc68019b0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416696596,
+        "stop" : 1534416702929,
+        "duration" : 6333
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "search",
+      "uid" : "2b9656a81aa41434",
+      "parentUid" : "368d2aa9aa212f8b8ba930dc68019b0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416702939,
+        "stop" : 1534416718549,
+        "duration" : 15610
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "Layers",
+      "uid" : "cf09c99d591d1131",
+      "parentUid" : "368d2aa9aa212f8b8ba930dc68019b0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416746614,
+        "stop" : 1534416774613,
+        "duration" : 27999
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "userProfiles",
+      "uid" : "18da00e45d2eaff7",
+      "parentUid" : "368d2aa9aa212f8b8ba930dc68019b0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416782577,
+        "stop" : 1534416789326,
+        "duration" : 6749
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "createReport",
+      "uid" : "1ba33adbb39ec2f3",
+      "parentUid" : "368d2aa9aa212f8b8ba930dc68019b0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416789332,
+        "stop" : 1534416814649,
+        "duration" : 25317
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    } ],
+    "uid" : "com.beacon.test.AppTest"
+  } ]
+}

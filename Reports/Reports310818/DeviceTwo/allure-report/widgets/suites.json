@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "2b7a51068260bf0e0bf047be97d77ede",
+    "name" : "BeaconAppLoadTest",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 41,
+      "unknown" : 0,
+      "total" : 50
+    }
+  } ]
+}

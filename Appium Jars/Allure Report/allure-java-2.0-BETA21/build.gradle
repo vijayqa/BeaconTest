@@ -1,0 +1,143 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath 'io.spring.gradle:dependency-management-plugin:1.0.3.RELEASE'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M4'
+        classpath 'net.researchgate:gradle-release:2.6.0'
+        classpath 'ru.vyarus:gradle-quality-plugin:2.2.0'
+        classpath 'io.qameta.allure:allure-gradle:2.3'
+    }
+}
+
+ext {
+    linkHomepage = 'https://qameta.io/allure'
+    linkCi = 'https://ci.qameta.in/job/allure-java_deploy/'
+    linkScmUrl = 'https://github.com/allure-framework/allure-java'
+    linkScmConnection = 'scm:git:git://github.com/allure-framework/allure-java.git'
+    linkScmDevConnection = 'scm:git:ssh://git@github.com:allure-framework/allure-java.git'
+
+    gradleScriptDir = "${rootProject.projectDir}/gradle"
+}
+
+apply from: "${gradleScriptDir}/bintray.gradle"
+apply from: "${gradleScriptDir}/release.gradle"
+
+configure(rootProject) {
+    description = "Allure Java"
+
+    task build() {
+    }
+
+    task wrapper(type: Wrapper) {
+        gradleVersion = '4.0.1'
+    }
+}
+
+subprojects { project ->
+    group = 'io.qameta.allure'
+    version = version
+
+    apply plugin: 'java'
+    apply plugin: 'io.qameta.allure'
+    apply plugin: 'io.spring.dependency-management'
+
+    apply from: "${gradleScriptDir}/maven-publish.gradle"
+
+    compileJava.dependsOn(processResources)
+
+    compileJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = 'UTF-8'
+    }
+
+    compileTestJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = 'UTF-8'
+    }
+
+    dependencyManagement {
+        dependencies {
+            dependency 'com.github.tomakehurst:wiremock:2.6.0'
+            dependency 'com.google.guava:guava:19.0'
+            dependency 'com.google.inject:guice:4.1.0'
+            dependency 'com.squareup.retrofit2:retrofit:2.2.0'
+            dependency 'commons-io:commons-io:2.5'
+            dependency 'io.qameta.allure:allure2-model-api:1.0-BETA6'
+            dependency 'io.rest-assured:rest-assured:3.0.2'
+            dependency 'javax.servlet:javax.servlet-api:3.1.0'
+            dependency 'junit:junit:4.12'
+            dependency 'org.apache.commons:commons-lang3:3.5'
+            dependency 'org.apache.httpcomponents:httpclient:4.5.3'
+            dependency 'org.aspectj:aspectjrt:1.8.10'
+            dependency 'org.aspectj:aspectjrt:1.8.10'
+            dependency 'org.aspectj:aspectjweaver:1.8.10'
+            dependency 'org.assertj:assertj-core:3.6.2'
+            dependency 'org.freemarker:freemarker:2.3.26-incubating'
+            dependency 'org.jbehave:jbehave-core:4.1.1'
+            dependency 'org.jooq:joor:0.9.6'
+            dependency 'org.junit.jupiter:junit-jupiter-api:5.0.0'
+            dependency 'org.junit.jupiter:junit-jupiter-engine:5.0.0'
+            dependency 'org.junit.jupiter:junit-jupiter-params:5.0.0'
+            dependency 'org.junit.platform:junit-platform-launcher:1.0.0'
+            dependency 'org.mock-server:mockserver-netty:3.10.7'
+            dependency 'org.mockito:mockito-core:2.7.11'
+            dependency 'org.slf4j:slf4j-api:1.7.21'
+            dependency 'org.slf4j:slf4j-simple:1.7.21'
+            dependency 'org.springframework.boot:spring-boot-autoconfigure:1.5.3.RELEASE'
+            dependency 'org.springframework:spring-test:4.3.8.RELEASE'
+            dependency 'org.springframework:spring-webmvc:4.3.8.RELEASE'
+            dependency 'org.testng:testng:6.10'
+        }
+    }
+
+    task sourceJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        from sourceSets.main.allJava
+    }
+
+    tasks.withType(Javadoc) {
+        options.addStringOption('Xdoclint:none', '-quiet')
+    }
+
+    task javadocJar(type: Jar, dependsOn: javadoc) {
+        classifier = 'javadoc'
+        from javadoc.destinationDir
+    }
+
+    artifacts {
+        archives sourceJar
+        archives javadocJar
+    }
+
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+
+    allure {
+        version = '2.2.1'
+        autoconfigure = false
+        aspectjweaver = false
+    }
+
+    test {
+        afterTest { descriptor, result ->
+            logger.lifecycle("$descriptor finished with status $result")
+        }
+    }
+
+    apply plugin: 'ru.vyarus.quality'
+    quality {
+        checkstyleVersion = '7.6'
+        pmdVersion = '5.5.4'
+        findbugsVersion = '3.0.1'
+        codenarcVersion = '0.26.0'
+    }
+}

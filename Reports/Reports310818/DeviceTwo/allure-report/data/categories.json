@@ -1,0 +1,129 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Unable to create report",
+      "children" : [ {
+        "name" : "add_Incident_Report:7/50 100%",
+        "uid" : "35869463bba29eea",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535721119335,
+          "stop" : 1535721216768,
+          "duration" : 97433
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:14/50 100%",
+        "uid" : "aa160f9efa0bcfa0",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535721574015,
+          "stop" : 1535721650934,
+          "duration" : 76919
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:20/50 100%",
+        "uid" : "874da88bf57680d0",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535721930402,
+          "stop" : 1535722030959,
+          "duration" : 100557
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:26/50 100%",
+        "uid" : "c5eb42016cc52324",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535722308063,
+          "stop" : 1535722442422,
+          "duration" : 134359
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:33/50 100%",
+        "uid" : "3fec79dabe4a9a04",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535722774174,
+          "stop" : 1535722862946,
+          "duration" : 88772
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:34/50 100%",
+        "uid" : "cfefb9d5a1b93e0d",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535722862949,
+          "stop" : 1535722942541,
+          "duration" : 79592
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:39/50 100%",
+        "uid" : "ae1b745257a6b082",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535723159528,
+          "stop" : 1535723207302,
+          "duration" : 47774
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add_Incident_Report:46/50 100%",
+        "uid" : "88e7c4e9f46a45aa",
+        "parentUid" : "c8d352a0fd458cfb258a534057427eb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535723536814,
+          "stop" : 1535723638330,
+          "duration" : 101516
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8d352a0fd458cfb258a534057427eb1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "WebDriverException: An unknown server-side error occurred while processing the command. Original error: Unable to launch WebDriverAgent because of xcodebuild failure: \"xcodebuild failed with code 65\". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.\nBuild info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'\nSystem info: host: 'Kundans-MacBook-Pro.local', ip: '169.254.71.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/cumulations/Desktop/..., automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: Madhu iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90000, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.2, takesScreenshot: true, udid: fcfb9ab25dbf05bd06e51194ae9..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}\nSession ID: d6759fb2-ec0a-45aa-9f8e-3bad48a417e6",
+      "children" : [ {
+        "name" : "add_Incident_Report:13/50 100%",
+        "uid" : "f5cf9fcaac2a68cb",
+        "parentUid" : "dc9abb01c96e960511e95a97ad0c829b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1535721497409,
+          "stop" : 1535721573702,
+          "duration" : 76293
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc9abb01c96e960511e95a97ad0c829b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

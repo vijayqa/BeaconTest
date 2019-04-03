@@ -1,0 +1,69 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Load Testing",
+    "children" : [ {
+      "name" : "Select Map Type",
+      "uid" : "1ea9136fa9904db8",
+      "parentUid" : "600681aaa6e54318ef31e7e7ef61fe2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416696596,
+        "stop" : 1534416702929,
+        "duration" : 6333
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "Search Feature",
+      "uid" : "2b9656a81aa41434",
+      "parentUid" : "600681aaa6e54318ef31e7e7ef61fe2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416702939,
+        "stop" : 1534416718549,
+        "duration" : 15610
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "Layer Filter",
+      "uid" : "cf09c99d591d1131",
+      "parentUid" : "600681aaa6e54318ef31e7e7ef61fe2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416746614,
+        "stop" : 1534416774613,
+        "duration" : 27999
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "User Profile Selection",
+      "uid" : "18da00e45d2eaff7",
+      "parentUid" : "600681aaa6e54318ef31e7e7ef61fe2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416782577,
+        "stop" : 1534416789326,
+        "duration" : 6749
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    }, {
+      "name" : "Add Incident Report",
+      "uid" : "1ba33adbb39ec2f3",
+      "parentUid" : "600681aaa6e54318ef31e7e7ef61fe2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416789332,
+        "stop" : 1534416814649,
+        "duration" : 25317
+      },
+      "flaky" : false,
+      "parameters" : [ "ios", "1.0" ]
+    } ],
+    "uid" : "600681aaa6e54318ef31e7e7ef61fe2d"
+  } ]
+}

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3,710.221" tests="50" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/basavaraj/Desktop/Projects/loadTest/target/test-classes:/Users/basavaraj/Desktop/Projects/loadTest/target/classes:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/basavaraj/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/basavaraj/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/basavaraj/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/basavaraj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/basavaraj/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/basavaraj/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/basavaraj/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/basavaraj/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/basavaraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/basavaraj/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/basavaraj/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/basavaraj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/basavaraj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/basavaraj/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/basavaraj/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/basavaraj/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/basavaraj/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/basavaraj/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/basavaraj/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/basavaraj/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/basavaraj/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/basavaraj/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/basavaraj/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/basavaraj/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/basavaraj/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/basavaraj/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/basavaraj/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/basavaraj/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/basavaraj/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-testng-adaptor/1.5.4/allure-testng-adaptor-1.5.4.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-java-aspects/1.5.4/allure-java-aspects-1.5.4.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-java-adaptor-api/1.5.4/allure-java-adaptor-api-1.5.4.jar:/Users/basavaraj/.m2/repository/org/apache/tika/tika-core/1.7/tika-core-1.7.jar:/Users/basavaraj/.m2/repository/org/aspectj/aspectjrt/1.8.3/aspectjrt-1.8.3.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure-testng/2.7.0/allure-testng-2.7.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure-descriptions-javadoc/2.7.0/allure-descriptions-javadoc-2.7.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure-java-commons/2.7.0/allure-java-commons-2.7.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure2-model-api/1.0.0/allure2-model-api-1.0.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0.0/allure2-model-pojo-1.0.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0.0/allure2-model-jackson-1.0.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Users/basavaraj/.m2/repository/org/jooq/joor-java-8/0.9.9/joor-java-8-0.9.9.jar:/Users/basavaraj/.m2/repository/org/mortbay/jetty/jetty-maven-plugin/8.1.16.v20140903/jetty-maven-plugin-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-webapp/8.1.16.v20140903/jetty-webapp-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-xml/8.1.16.v20140903/jetty-xml-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-servlet/8.1.16.v20140903/jetty-servlet-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-security/8.1.16.v20140903/jetty-security-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-model/3.0.3/maven-model-3.0.3.jar:/Users/basavaraj/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-inject-plexus-2.1.1.jar:/Users/basavaraj/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar:/Users/basavaraj/.m2/repository/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-artifact/3.0.3/maven-artifact-3.0.3.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-core/3.0.3/maven-core-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-settings/3.0.3/maven-settings-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-settings-builder/3.0.3/maven-settings-builder-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-repository-metadata/3.0.3/maven-repository-metadata-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-model-builder/3.0.3/maven-model-builder-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-aether-provider/3.0.3/maven-aether-provider-3.0.3.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-spi/1.11/aether-spi-1.11.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-impl/1.11/aether-impl-1.11.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-api/1.11/aether-api-1.11.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-util/1.11/aether-util-1.11.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/basavaraj/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/basavaraj/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/basavaraj/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools-api/2.9/maven-plugin-tools-api-2.9.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/basavaraj/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/basavaraj/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/basavaraj/.m2/repository/net/sf/jtidy/jtidy/r938/jtidy-r938.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-plus/8.1.16.v20140903/jetty-plus-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-jndi/8.1.16.v20140903/jetty-jndi-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-jmx/8.1.16.v20140903/jetty-jmx-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-annotations/8.1.16.v20140903/jetty-annotations-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v200803061910/org.objectweb.asm-3.1.0.v200803061910.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-jsp/8.1.16.v20140903/jetty-jsp-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.apache.jasper.glassfish/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.apache.taglibs.standard.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011116/javax.el-2.2.0.v201108011116.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v201108011116/com.sun.el-2.2.0.v201108011116.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1/org.eclipse.jdt.core-3.7.1.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-java-annotations/1.5.4/allure-java-annotations-1.5.4.jar:/Users/basavaraj/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/basavaraj/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/basavaraj/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-model/1.5.4/allure-model-1.5.4.jar:/Users/basavaraj/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.9.3/jaxb2-basics-runtime-0.9.3.jar:/Users/basavaraj/.m2/repository/ru/qatools/commons/properties/2.0.RC5/properties-2.0.RC5.jar:/Users/basavaraj/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/basavaraj/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/basavaraj/Desktop/Projects/loadTest/target/surefire/surefirebooter1383378244035731269.jar /Users/basavaraj/Desktop/Projects/loadTest/target/surefire 2018-08-31T18-33-36_892-jvmRun1 surefire1598715889596806909tmp surefire_04551675130364698722tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/basavaraj/Desktop/Projects/loadTest/target/test-classes:/Users/basavaraj/Desktop/Projects/loadTest/target/classes:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/basavaraj/.m2/repository/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/basavaraj/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/basavaraj/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/basavaraj/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/basavaraj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/basavaraj/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/basavaraj/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/basavaraj/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/basavaraj/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/basavaraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/basavaraj/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/basavaraj/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/basavaraj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/basavaraj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/basavaraj/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/basavaraj/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/basavaraj/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/basavaraj/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/basavaraj/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/basavaraj/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/basavaraj/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/basavaraj/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/basavaraj/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/basavaraj/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/basavaraj/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/basavaraj/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/basavaraj/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/basavaraj/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/basavaraj/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/basavaraj/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/basavaraj/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-testng-adaptor/1.5.4/allure-testng-adaptor-1.5.4.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-java-aspects/1.5.4/allure-java-aspects-1.5.4.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-java-adaptor-api/1.5.4/allure-java-adaptor-api-1.5.4.jar:/Users/basavaraj/.m2/repository/org/apache/tika/tika-core/1.7/tika-core-1.7.jar:/Users/basavaraj/.m2/repository/org/aspectj/aspectjrt/1.8.3/aspectjrt-1.8.3.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure-testng/2.7.0/allure-testng-2.7.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure-descriptions-javadoc/2.7.0/allure-descriptions-javadoc-2.7.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure-java-commons/2.7.0/allure-java-commons-2.7.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure2-model-api/1.0.0/allure2-model-api-1.0.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0.0/allure2-model-pojo-1.0.0.jar:/Users/basavaraj/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0.0/allure2-model-jackson-1.0.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/Users/basavaraj/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Users/basavaraj/.m2/repository/org/jooq/joor-java-8/0.9.9/joor-java-8-0.9.9.jar:/Users/basavaraj/.m2/repository/org/mortbay/jetty/jetty-maven-plugin/8.1.16.v20140903/jetty-maven-plugin-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-webapp/8.1.16.v20140903/jetty-webapp-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-xml/8.1.16.v20140903/jetty-xml-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-servlet/8.1.16.v20140903/jetty-servlet-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-security/8.1.16.v20140903/jetty-security-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-model/3.0.3/maven-model-3.0.3.jar:/Users/basavaraj/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-inject-plexus-2.1.1.jar:/Users/basavaraj/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar:/Users/basavaraj/.m2/repository/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-artifact/3.0.3/maven-artifact-3.0.3.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-core/3.0.3/maven-core-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-settings/3.0.3/maven-settings-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-settings-builder/3.0.3/maven-settings-builder-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-repository-metadata/3.0.3/maven-repository-metadata-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-model-builder/3.0.3/maven-model-builder-3.0.3.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-aether-provider/3.0.3/maven-aether-provider-3.0.3.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-spi/1.11/aether-spi-1.11.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-impl/1.11/aether-impl-1.11.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-api/1.11/aether-api-1.11.jar:/Users/basavaraj/.m2/repository/org/sonatype/aether/aether-util/1.11/aether-util-1.11.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/basavaraj/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/basavaraj/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/basavaraj/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools-api/2.9/maven-plugin-tools-api-2.9.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar:/Users/basavaraj/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar:/Users/basavaraj/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar:/Users/basavaraj/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/basavaraj/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/basavaraj/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/basavaraj/.m2/repository/net/sf/jtidy/jtidy/r938/jtidy-r938.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-plus/8.1.16.v20140903/jetty-plus-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-jndi/8.1.16.v20140903/jetty-jndi-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-jmx/8.1.16.v20140903/jetty-jmx-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-annotations/8.1.16.v20140903/jetty-annotations-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.objectweb.asm/3.1.0.v200803061910/org.objectweb.asm-3.1.0.v200803061910.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/jetty-jsp/8.1.16.v20140903/jetty-jsp-8.1.16.v20140903.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.apache.jasper.glassfish/2.2.2.v201112011158/org.apache.jasper.glassfish-2.2.2.v201112011158.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.apache.taglibs.standard.glassfish/1.2.0.v201112081803/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/javax.el/2.2.0.v201108011116/javax.el-2.2.0.v201108011116.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/com.sun.el/2.2.0.v201108011116/com.sun.el-2.2.0.v201108011116.jar:/Users/basavaraj/.m2/repository/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.7.1/org.eclipse.jdt.core-3.7.1.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-java-annotations/1.5.4/allure-java-annotations-1.5.4.jar:/Users/basavaraj/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/basavaraj/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/basavaraj/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/basavaraj/.m2/repository/ru/yandex/qatools/allure/allure-model/1.5.4/allure-model-1.5.4.jar:/Users/basavaraj/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.9.3/jaxb2-basics-runtime-0.9.3.jar:/Users/basavaraj/.m2/repository/ru/qatools/commons/properties/2.0.RC5/properties-2.0.RC5.jar:/Users/basavaraj/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/basavaraj/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/basavaraj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/basavaraj/Desktop/Projects/loadTest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/basavaraj/Desktop/Projects/loadTest/target/surefire/surefirebooter1383378244035731269.jar:/Users/basavaraj/Desktop/Projects/loadTest/aspectjweaver-1.9.1.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="user.name" value="basavaraj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/basavaraj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/1j/vvs61m2s02d908w8w8x5q8600000gn/T/"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="user.dir" value="/Users/basavaraj/Desktop/Projects/loadTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/basavaraj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.ext.dirs" value="/Users/basavaraj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="65.249"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.078"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="66.335"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.961"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="65.767"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="68.784"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="127.073">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+</failure>
+    <system-out><![CDATA[Location searched is West
+Clicked on Maintainance
+Clicked on SAVE CART
+Clicked on Add Photo
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.69"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="62.703"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.023"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.33"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.997"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="66.349"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="134.674">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+</failure>
+    <system-out><![CDATA[Location searched is Heartland
+Clicked on Maintainance
+Clicked on SAVE CART
+Clicked on Add Photo
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="66.201"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.755"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.209"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="65.403"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.644"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.782"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="129.469">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Use Photo}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:191)
+</failure>
+    <system-out><![CDATA[Location searched is Heartland
+Clicked on Maintainance
+Clicked on SAVE CART
+Clicked on Add Photo
+Clicked on PhotoCapture
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Use Photo}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:191)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.945"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="62.9"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.328"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.862"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.404"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.91"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="77.053">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Aerial coax construction composite (Coax Only)}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:148)
+</failure>
+    <system-out><![CDATA[Location searched is Houston
+Clicked on Maintainance
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=Aerial coax construction composite (Coax Only)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:148)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.798"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="62.862"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.313"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.365"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="66.998"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.035"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="139.384">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+</failure>
+    <system-out><![CDATA[Location searched is Florida
+Clicked on Maintainance
+Clicked on SAVE CART
+Clicked on Add Photo
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.651"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.097"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.885"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.99"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="65.046"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="66.521"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="135.413">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+</failure>
+    <system-out><![CDATA[Location searched is Heartland
+Clicked on Maintainance
+Clicked on SAVE CART
+Clicked on Add Photo
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.763"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.125"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.442"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="63.672"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.171"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="67.193"/>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="135.536">
+    <failure message="Unable to create report" type="java.lang.AssertionError">java.lang.AssertionError: Unable to create report
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:220)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+</failure>
+    <system-out><![CDATA[Location searched is Oregon
+Clicked on Maintainance
+Clicked on SAVE CART
+Clicked on Add Photo
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'basavarajs-MacBook-Pro.local', ip: '192.168.0.128', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/basavaraj/Desktop/Be..., automationName: XCUITest, browserName: iOS, databaseEnabled: false, deviceName: iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.4, takesScreenshot: true, udid: 5bebcfa8e9b85198945951f55c6..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}
+Session ID: ea8e962a-6d2f-4c74-996a-219403c9147e
+*** Element info: {Using=accessibility id, value=PhotoCapture}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.beacon.test.AppTestDeviceOne.add_Incident_Report(AppTestDeviceOne.java:187)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="add_Incident_Report" classname="com.beacon.test.AppTestDeviceOne" time="64.381"/>
+</testsuite>

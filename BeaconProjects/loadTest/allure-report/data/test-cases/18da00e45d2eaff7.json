@@ -1,0 +1,104 @@
+{
+  "uid" : "18da00e45d2eaff7",
+  "name" : "User Profile Selection",
+  "fullName" : "com.beacon.test.AppTest.userProfiles",
+  "historyId" : "e932b87bebd17618934a8615b851bf1b",
+  "time" : {
+    "start" : 1534416782577,
+    "stop" : 1534416789326,
+    "duration" : 6749
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1534416666945,
+      "stop" : 1534416689574,
+      "duration" : 22629
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1534416815100,
+      "stop" : 1534416815437,
+      "duration" : 337
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.beacon.test.AppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.beacon.test.AppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userProfiles"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Beacon App Load Test"
+  }, {
+    "name" : "suite",
+    "value" : "Beacon Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.beacon.test.AppTest"
+  }, {
+    "name" : "host",
+    "value" : "basavarajs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2150@basavarajs-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Load Testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appType",
+    "value" : "ios"
+  }, {
+    "name" : "appVersion",
+    "value" : "1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41166456b3ec1398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534416774619,
+        "stop" : 1534416782571,
+        "duration" : 7952
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18da00e45d2eaff7.json",
+  "parameterValues" : [ "ios", "1.0" ]
+}

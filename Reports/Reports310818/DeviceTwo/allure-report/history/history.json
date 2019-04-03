@@ -1,0 +1,961 @@
+{
+  "2a5e304b045c0b3c2734d23f4879e85f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6d253da5821fad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723638524,
+        "stop" : 1535723693900,
+        "duration" : 55376
+      }
+    } ]
+  },
+  "e2ae0679b8d33bad75cd5c1c58fb2de0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffbf1a37f2fff196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721387584,
+        "stop" : 1535721442572,
+        "duration" : 54988
+      }
+    } ]
+  },
+  "59e16c05a2381c33ce69fe4de10784d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "475dc9113bc0d908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721332670,
+        "stop" : 1535721387579,
+        "duration" : 54909
+      }
+    } ]
+  },
+  "a5da0462554d8ceadf624385cd744d55" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95721807fedd004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535720821628,
+        "stop" : 1535720884194,
+        "duration" : 62566
+      }
+    } ]
+  },
+  "5c5879b4f090d7ed4942d244b43cc771" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d91955ff6b910e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721277339,
+        "stop" : 1535721332488,
+        "duration" : 55149
+      }
+    } ]
+  },
+  "886fe050edb649232df93afd66e64458" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5f2fe0b60c7d370",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723105319,
+        "stop" : 1535723159524,
+        "duration" : 54205
+      }
+    } ]
+  },
+  "29233214293c723df40e62ac1743da61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a201df1c83ae1c8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723317116,
+        "stop" : 1535723372092,
+        "duration" : 54976
+      }
+    } ]
+  },
+  "9d1c5711232045fe808ed9f98e1f908e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fec79dabe4a9a04",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535722774174,
+        "stop" : 1535722862946,
+        "duration" : 88772
+      }
+    } ]
+  },
+  "ff5281f3d13f8a49a3c7e387af7c8603" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41a940a92e3567a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721216775,
+        "stop" : 1535721277335,
+        "duration" : 60560
+      }
+    } ]
+  },
+  "d8b98807cfc34c33fdc2364df1a4c311" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81ad70eea6bd6657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722442574,
+        "stop" : 1535722499245,
+        "duration" : 56671
+      }
+    } ]
+  },
+  "6899d40a4d953801400e8062d2ff53b8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88e7c4e9f46a45aa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535723536814,
+        "stop" : 1535723638330,
+        "duration" : 101516
+      }
+    } ]
+  },
+  "d6cdb992baa9d01b0d8f5a04d3efdf4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3af070eb5313e28b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721650946,
+        "stop" : 1535721706711,
+        "duration" : 55765
+      }
+    } ]
+  },
+  "2474e036135cc9df2367e1e03c7f2101" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e782a7f3d273dbb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723693903,
+        "stop" : 1535723747861,
+        "duration" : 53958
+      }
+    } ]
+  },
+  "c0c5d4b24d0e58dfaa4a66a90cf74267" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f70fdeb3cc4728f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721706715,
+        "stop" : 1535721762132,
+        "duration" : 55417
+      }
+    } ]
+  },
+  "2975eb538f9dbd0c105b6be18feebcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "320f93019dbad29f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723262736,
+        "stop" : 1535723317112,
+        "duration" : 54376
+      }
+    } ]
+  },
+  "55849bd97a089dc80fa6c30d57dc8457" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3746309ee4595e7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722663502,
+        "stop" : 1535722718653,
+        "duration" : 55151
+      }
+    } ]
+  },
+  "6ea5620922f2dddc8be304e6711796b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d3a365f5ff060cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722031119,
+        "stop" : 1535722085636,
+        "duration" : 54517
+      }
+    } ]
+  },
+  "3297437877b0d6c0fa35458559f90ada" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a321fb439f66e6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722139563,
+        "stop" : 1535722194593,
+        "duration" : 55030
+      }
+    } ]
+  },
+  "747f83ed9ffc64903cbd05072ea1f4fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86d88081a83e1505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723207305,
+        "stop" : 1535723262732,
+        "duration" : 55427
+      }
+    } ]
+  },
+  "3bd5be489f89cc88f3a1526f899283ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5cf9fcaac2a68cb",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: An unknown server-side error occurred while processing the command. Original error: Unable to launch WebDriverAgent because of xcodebuild failure: \"xcodebuild failed with code 65\". Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.\nBuild info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'\nSystem info: host: 'Kundans-MacBook-Pro.local', ip: '169.254.71.83', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/cumulations/Desktop/..., automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: Madhu iPhone, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90000, noReset: true, platform: MAC, platformName: iOS, platformVersion: 11.2, takesScreenshot: true, udid: fcfb9ab25dbf05bd06e51194ae9..., usePrebuiltWDA: true, wdaConnectionTimeout: 240000, wdaLaunchTimeout: 240000, webStorageEnabled: false, xcodeOrgId: G56QYJ7ZRJ, xcodeSigningId: iPhone Developer}\nSession ID: d6759fb2-ec0a-45aa-9f8e-3bad48a417e6",
+      "time" : {
+        "start" : 1535721497409,
+        "stop" : 1535721573702,
+        "duration" : 76293
+      }
+    } ]
+  },
+  "21207379b02fad0273ee4fdc4b779546" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d5dfaaf001fba2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721820721,
+        "stop" : 1535721874776,
+        "duration" : 54055
+      }
+    } ]
+  },
+  "e790bc1a297351cbc0f3948ea4cabc2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57a0cd5b425a1b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722194598,
+        "stop" : 1535722253410,
+        "duration" : 58812
+      }
+    } ]
+  },
+  "19f5a3537ca327af7a9d5681f632de50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a27b82291ec8a842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721060379,
+        "stop" : 1535721119330,
+        "duration" : 58951
+      }
+    } ]
+  },
+  "c6fee34f93d64dd494f4ba8ddfa1d968" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "874da88bf57680d0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535721930402,
+        "stop" : 1535722030959,
+        "duration" : 100557
+      }
+    } ]
+  },
+  "d8e9bc2471897143c1bfa632e8b7a2a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4752912b2462b930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721442576,
+        "stop" : 1535721497404,
+        "duration" : 54828
+      }
+    } ]
+  },
+  "bfee4c7949672e79533f0b26e8e52834" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e5552eaa6445ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722608351,
+        "stop" : 1535722663498,
+        "duration" : 55147
+      }
+    } ]
+  },
+  "6c499ae77b3d36eed14b47b91865e35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "220d8aade2ccdaeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723050343,
+        "stop" : 1535723105315,
+        "duration" : 54972
+      }
+    } ]
+  },
+  "e140fa5abcd388c5cb7a1e450798f720" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2d9180f7fee0b2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723802356,
+        "stop" : 1535723857137,
+        "duration" : 54781
+      }
+    } ]
+  },
+  "2a36aa67d2c855ec0436c10def87316e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe57147f37594322",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722085640,
+        "stop" : 1535722139559,
+        "duration" : 53919
+      }
+    } ]
+  },
+  "5c3e958b95e91d5c35e485cf56b9378e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c47af93dc42206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723747864,
+        "stop" : 1535723802352,
+        "duration" : 54488
+      }
+    } ]
+  },
+  "a1b1fbbcfb3014f109a3032e43388fcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c462abf80de4fa2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722718657,
+        "stop" : 1535722774170,
+        "duration" : 55513
+      }
+    } ]
+  },
+  "417fc5dcf715796be51d80a246dd0c34" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5eb42016cc52324",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535722308063,
+        "stop" : 1535722442422,
+        "duration" : 134359
+      }
+    } ]
+  },
+  "f3f579b5bd572607c303b9a183d32747" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e2798e2ee4e227c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721874780,
+        "stop" : 1535721930398,
+        "duration" : 55618
+      }
+    } ]
+  },
+  "997df604b3951a33647ae6af97173ea9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3aad79d6b73a0e4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535720884199,
+        "stop" : 1535720941343,
+        "duration" : 57144
+      }
+    } ]
+  },
+  "5df41a278234c1ae80d1debce8f0c05d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae1b745257a6b082",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535723159528,
+        "stop" : 1535723207302,
+        "duration" : 47774
+      }
+    } ]
+  },
+  "e4ea0a4aa538da896a41c9b5e2802e88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c0e227fbb5acf43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722553275,
+        "stop" : 1535722608348,
+        "duration" : 55073
+      }
+    } ]
+  },
+  "899125e09893600df66f3e8493730c85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0656ead072eb455",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723482491,
+        "stop" : 1535723536810,
+        "duration" : 54319
+      }
+    } ]
+  },
+  "eb61db6380dbedd7434f3e40ae60e2c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "374abe143f53d70d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535720941955,
+        "stop" : 1535721001219,
+        "duration" : 59264
+      }
+    } ]
+  },
+  "7f0bc745ada95023c5ace35d3d15aced" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa160f9efa0bcfa0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535721574015,
+        "stop" : 1535721650934,
+        "duration" : 76919
+      }
+    } ]
+  },
+  "fa9b17abb898717907f37b50a93c56b4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfefb9d5a1b93e0d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535722862949,
+        "stop" : 1535722942541,
+        "duration" : 79592
+      }
+    } ]
+  },
+  "a4df4a882f28800087f6f204bd48583a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0484ff61ca8b41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722253416,
+        "stop" : 1535722308059,
+        "duration" : 54643
+      }
+    } ]
+  },
+  "a05a749cb6ab97cdbd0231bd9a44bd94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b08d53f595a06394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535720763934,
+        "stop" : 1535720821616,
+        "duration" : 57682
+      }
+    } ]
+  },
+  "2b10bb88e9eaac8e76a1a8520f67b0bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e94e7569cfbdf4a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721001225,
+        "stop" : 1535721060373,
+        "duration" : 59148
+      }
+    } ]
+  },
+  "7108b7252819d21f550738562273978a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9966ed1b25fa37da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722942715,
+        "stop" : 1535722996375,
+        "duration" : 53660
+      }
+    } ]
+  },
+  "c874c0f2daf55674587a104666390289" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd7a557efbedd563",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722499249,
+        "stop" : 1535722553271,
+        "duration" : 54022
+      }
+    } ]
+  },
+  "3e117ef1f299575655dc4c0f9caee180" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f646af44bd1ca7ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535721762312,
+        "stop" : 1535721820717,
+        "duration" : 58405
+      }
+    } ]
+  },
+  "58dc93485d130d06df78c6ae18cba776" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8552f1a701d9945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723428267,
+        "stop" : 1535723482487,
+        "duration" : 54220
+      }
+    } ]
+  },
+  "48d701b0835241b3c89a0665af1d712e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35869463bba29eea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Unable to create report",
+      "time" : {
+        "start" : 1535721119335,
+        "stop" : 1535721216768,
+        "duration" : 97433
+      }
+    } ]
+  },
+  "996ec7df045f21e5e0514a5c02f3a769" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e54a947eda5a1e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723372096,
+        "stop" : 1535723428264,
+        "duration" : 56168
+      }
+    } ]
+  },
+  "53e1338fbca0d3378db8d04f7ce33536" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d861078839b24edc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535722996379,
+        "stop" : 1535723050339,
+        "duration" : 53960
+      }
+    } ]
+  }
+}

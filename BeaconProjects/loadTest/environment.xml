@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <parameter>
+        <key>Application</key>
+        <value>iOS</value>
+    </parameter>
+    <parameter>
+        <key>App.Version</key>
+        <value>Beacon-2.11.1</value>
+    </parameter>
+    <parameter>
+        <key>Device 1</key>
+        <value>iPhone 6, OS 11.4</value>
+    </parameter>
+    <parameter>
+        <key>Device 2</key>
+        <value>iPhone 6, OS 11.2</value>
+    </parameter>
+</environment>

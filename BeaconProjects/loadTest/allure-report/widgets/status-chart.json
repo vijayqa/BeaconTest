@@ -1,0 +1,51 @@
+[ {
+  "uid" : "cf09c99d591d1131",
+  "name" : "Layer Filter",
+  "time" : {
+    "start" : 1534416746614,
+    "stop" : 1534416774613,
+    "duration" : 27999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18da00e45d2eaff7",
+  "name" : "User Profile Selection",
+  "time" : {
+    "start" : 1534416782577,
+    "stop" : 1534416789326,
+    "duration" : 6749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ba33adbb39ec2f3",
+  "name" : "Add Incident Report",
+  "time" : {
+    "start" : 1534416789332,
+    "stop" : 1534416814649,
+    "duration" : 25317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ea9136fa9904db8",
+  "name" : "Select Map Type",
+  "time" : {
+    "start" : 1534416696596,
+    "stop" : 1534416702929,
+    "duration" : 6333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b9656a81aa41434",
+  "name" : "Search Feature",
+  "time" : {
+    "start" : 1534416702939,
+    "stop" : 1534416718549,
+    "duration" : 15610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

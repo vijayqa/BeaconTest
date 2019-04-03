@@ -1,0 +1,38 @@
+rootProject.name = 'allure-java'
+include 'allure-java-commons'
+include 'allure-java-commons-test'
+include 'allure-java-migration'
+include 'allure-junit-platform'
+include 'allure-junit5'
+include 'allure-junit4'
+include 'allure-testng'
+include 'allure-cucumber-jvm'
+include 'allure-cucumber2-jvm'
+include 'allure-descriptions-javadoc'
+include 'allure-attachments'
+include 'allure-okhttp3'
+include 'allure-httpclient'
+include 'allure-rest-assured'
+include 'allure-spring4-test'
+include 'allure-spring4-webmvc'
+include 'allure-servlet-api'
+include 'allure-spring-boot'
+include 'allure-junit4-aspect'
+include 'allure-spock'
+include 'allure-assertj'
+include 'allure-jbehave'
+
+def examples = [
+        'testng',
+        'testng-extended-listener',
+        'junit5',
+        'junit5-extended-listener',
+        'http-client-attachment',
+        'spock'
+]
+
+examples.forEach({
+    include "examples/$it"
+    project(":examples/$it").name = it
+})
+

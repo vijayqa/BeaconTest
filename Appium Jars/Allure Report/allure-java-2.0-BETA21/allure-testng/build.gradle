@@ -1,0 +1,56 @@
+description = 'Allure TestNG'
+
+apply from: "${gradleScriptDir}/maven-publish.gradle"
+apply from: "${gradleScriptDir}/bintray.gradle"
+apply plugin: 'maven'
+
+configurations {
+    agent
+}
+
+dependencies {
+    agent 'org.aspectj:aspectjweaver'
+
+    compile project(':allure-java-commons')
+    compile project(':allure-descriptions-javadoc')
+    compile 'org.testng:testng'
+
+    testCompile 'org.slf4j:slf4j-simple'
+    testCompile 'org.mockito:mockito-core'
+    testCompile 'org.assertj:assertj-core'
+    testCompile 'com.google.inject:guice'
+    testCompile project(':allure-java-commons-test')
+}
+
+jar {
+    from('src/main/services') {
+        into 'META-INF/services'
+    }
+}
+
+test {
+    useTestNG {
+        suites 'src/test/resources/testng.xml'
+    }
+
+    systemProperty 'allure.model.indentOutput', true
+    systemProperty 'org.slf4j.simpleLogger.defaultLogLevel', 'debug'
+
+    doFirst {
+        jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    }
+}
+
+task spiOffJar(type: Jar, dependsOn: classes) {
+    classifier = 'spi-off'
+    from sourceSets.main.output
+}
+
+configurations {
+    spiOff.extendsFrom(compile)
+}
+
+artifacts {
+    spiOff spiOffJar
+    archives spiOffJar
+}
